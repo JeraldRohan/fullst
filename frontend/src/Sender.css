@@ -1,0 +1,117 @@
+/* Navigation Bar Styling */
+body {
+    overflow-x: hidden;
+}
+
+.navbar-sender {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c0d0e;
+    padding: 10px 20px;
+}
+
+.navbar-title-sender {
+    color: white;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.navbar-buttons-sender {
+    display: flex;
+    margin-right: 20px;
+}
+
+.navbar-buttons-sender button {
+    background-color: #070707;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+}
+
+.navbar-buttons-sender button:hover {
+    background-color: #1a1a1b;
+}
+
+/* Faculty Table Styling */
+.faculty-list-container {
+    margin-left: 30px;
+}
+
+.faculty-list-container h3 {
+    color: rgba(11, 11, 152, 0.874);
+    margin-left: 13px;
+}
+
+.faculty-table {
+    width: 900px;
+    margin-left: 30px;
+    border-collapse: collapse;
+    transition: background-color 0.3s ease;
+}
+
+.faculty-table th {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.faculty-table td,
+.faculty-table th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.faculty-table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+.faculty-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.faculty-table tr:nth-child(even) {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.faculty-table tr:nth-child(odd):hover {
+    background-color: #e9e9e9; /* Slightly different color when hovering on odd rows */
+}
+
+.faculty-table tr:nth-child(even):hover {
+    background-color: #e0dddd; /* Slightly different color when hovering on even rows */
+}
+
+.faculty-table input[type="checkbox"] {
+    cursor: pointer;
+}
+
+/* Logout Button Styling */
+.logout-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #c0392b;
+}
+.checkbox{
+    height: 14px;
+}
+.faculty-list-container h3{
+    margin-top: 10px;
+}

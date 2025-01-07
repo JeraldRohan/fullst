@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between title and buttons */
+    align-items: center;
+    background-color: black; /* Black background for navbar */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the navbar */
+}
+
+.navbar-title {
+    margin: 0; /* Remove default margin */
+}
+
+.navbar .logout-button {
+    background-color: #110f0f; /* Red color for logout button */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.navbar .logout-button:hover {
+    background-color: #323131; /* Darker red on hover */
+}
+
+/* Faculty Dashboard Styling */
+.faculty-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Content styling for the book-like appearance */
+.faculty-content {
+    display: flex; /* Set to flex to have side-by-side details and tasks */
+    width: 890px; /* Set a fixed width */
+    border: 1px solid #ddd; /* Add border for book appearance */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: white; /* White background for content area */
+    margin-top: 16px;
+    height: 250px;
+}
+
+/* Left Side: Faculty Details */
+.faculty-details {
+    flex: 1; /* Takes equal space */
+    border-right: 1px solid #ddd; /* Divider */
+    padding-top: 0%; 
+    text-align: center; /* Center all text in this section */
+}
+
+.faculty-details p {
+    margin-top: 5px;
+}
+
+/* Right Side: Task Details */
+.faculty-task {
+    flex: 1; /* Takes equal space */
+    padding-top: 0px; /* Padding within the task section */
+}
+
+.faculty-task p, button {
+    margin-top: 7px;
+}
+
+/* Headings */
+h3 {
+    color: #fefefe; /* Color for headings */
+    margin-bottom: 15px; /* Spacing between heading and content */
+}
+
+/* Button Styling */
+button {
+    background-color: rgb(251, 173, 244); /* Primary button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size:10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+button:hover {
+    background-color: #07314e;
+    color: white; /* Darker shade on hover */
+}
+
+/* Adapt layout for small screens */
+@media (max-width: 768px) {
+    .faculty-content {
+        flex-direction: column; /* Stack details and tasks vertically */
+        width: 100%; /* Full width on small screens */
+    }
+
+    .faculty-details, .faculty-task {
+        border-right: none; /* Remove right border on small screens */
+        border-bottom: 1px solid #ddd; /* Add bottom border for separation */
+    }
+
+    .faculty-task {
+        padding-top: 10px; /* Space above task area on mobile */
+    }
+}
+
+/* Section Header Styling */
+.section-header {
+    background-color: #110f0f;
+    margin-top: 0%;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+}
+.cont{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.cont p{
+    margin-top: 8px;
+}
+.faculty-content{
+    background: linear-gradient(to bottom,whitesmoke,rgb(237, 219, 242),rgb(240, 210, 234));
+}

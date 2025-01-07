@@ -1,0 +1,136 @@
+/* Navigation Bar Styling */
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-sender {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c0d0e;
+    padding: 10px 20px;
+    margin-bottom: 0%;
+}
+
+.navbar-title-sender {
+    color: white;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.navbar-buttons-sender {
+    display: flex;
+    margin-right: 20px;
+}
+
+.navbar-buttons-sender button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 10px; /* Adds space between buttons */
+}
+
+/* Remove transition on table rows */
+.faculties-table {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 0%;
+    border-collapse: collapse;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.faculties-table th {
+    background-color: #000000;
+    color: #f1f1f1;
+}
+
+.faculties-table td,
+.faculties-table th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.faculties-table tr:nth-child(odd) {
+    background-color: #fff5f5;
+}
+
+.faculties-table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+
+
+.faculties-table input[type="checkbox"] {
+    cursor: pointer;
+}
+
+/* Logout Button Styling */
+.logout-button {
+    background-color: #f39c12; /* Updated color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 10px; /* Adds space between buttons */
+}
+
+.logout-button:hover {
+    background-color: #e67e22; /* Hover color */
+}
+
+/* Approve Button Styling */
+.approve {
+    background-color: #27ae60; /* Updated color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 10px; /* Adds space between buttons */
+}
+
+.approve:hover {
+    background-color: #2ecc71; /* Hover color */
+}
+
+/* Reject Button Styling */
+.reject {
+    background-color: #e74c3c; /* Updated color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 10px; /* Adds space between buttons */
+}
+
+.reject:hover {
+    background-color: #c0392b; /* Hover color */
+}
+
+/* Loading and Error Message Styling */
+.loading, .error {
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 10px; /* Adds left and right margin */
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+}

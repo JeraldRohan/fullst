@@ -1,0 +1,123 @@
+/* General body and html styles */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/background3.avif');
+  background-size: cover;
+  background-position: center top; /* Modify position to center top */
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Login container styling */
+.login-container {
+  color: black;
+  width: 300px;                  /* Set a width for the login form */
+  border-radius: 10px;           /* Rounded corners for the form */
+  padding: 20px;  
+  margin-top: 30px;               /* Space inside the form */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+  background: linear-gradient(to bottom, whitesmoke, rgb(244, 235, 235), rgb(246, 211, 246));
+}
+
+/* Login form container */
+.login-form {
+  display: flex;
+  flex-direction: column;        /* Stack the elements vertically */
+}
+
+/* Input group styles */
+.input-group {
+  margin-bottom: 15px;  
+}
+
+/* Label styles */
+label {
+  margin-bottom: 5px;            /* Space between label and input */
+}
+
+/* Input fields styles (email and password) */
+input[type="email"], input[type="password"] {
+  padding: 10px;                 /* Padding inside input fields */
+  border: 1px solid #ccc;        /* Border for input fields */
+  border-radius: 5px;            /* Rounded corners for input fields */
+  width: 85%; 
+  color: black;         /* Space between input fields */
+  /* Reduced width of input fields */
+  background-color: white;       /* White background for input fields */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Focus styles for input fields */
+input[type="email"]:focus, input[type="password"]:focus {
+  background-color: white;       /* Ensure background remains white when focused */
+  border: 1px solid #888;        /* Darker border on focus */
+  outline: none; 
+  color: black;         /* Space between input fields */
+  /* Remove default browser outline */
+}
+
+/* Password input specific styles */
+input[type="password"] {
+  background-color: white;
+  color: black;         /* Space between input fields */
+  /* Ensure white background for password input */
+}
+
+/* Button container */
+.btn {
+  text-align: center;            /* Center the button */
+}
+
+/* Button styles */
+.btn button {
+  background-color: #f0f0f0;        /* Grey button background color */
+  color: black;                     /* Black button text color */
+  padding: 10px 15px;               /* Padding inside button */
+  border: none;                     /* No borders */
+  border-radius: 5px;               /* Rounded corners */
+  cursor: pointer;                  /* Pointer cursor on hover */
+  font-size: 12px;                  /* Font size for button text */
+  width: 100px;                     /* Set a fixed width for the button */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+.btn button:hover {
+  background-color: rgb(234, 230, 230);    /* Darker grey on hover */
+}
+
+/* Error message styles */
+.error {
+  color: red;                    /* Error message in red */
+  margin-top: 10px;               /* Space between error message and form */
+  text-align: center;             /* Center error message */
+}
+
+/* Logo styling */
+.login-form img {
+  display: block;
+  margin: 0 auto 20px;            /* Centers the image */
+  max-width: 150px;               /* Adjust size as needed */
+  height: auto;
+}
+
+/* Ensuring button hover effect is smooth */
+.login-container .btn button {
+  transition: background-color 0.3s ease; /* Add this line for smooth transition */
+}
+
+/* Focused input fields (specific focus handling) */
+input[type="email"]:focus, input[type="password"]:focus {
+  outline: none;  /* Remove default outline */
+  border-color: #0078d4; /* Optional: Blue border for focus */
+}
