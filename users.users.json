@@ -1,0 +1,196 @@
+[{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31b9"
+  },
+  "id": "J001",
+  "name": "John",
+  "email": "john@gmail.com",
+  "department": "CSE",
+  "password": "123",
+  "task": "sgsd",
+  "sender": "coe@gmail.com",
+  "status": true,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31ba"
+  },
+  "id": "A002",
+  "name": "Alice",
+  "email": "alice@gmail.com",
+  "department": "CSE",
+  "password": "123",
+  "task": "",
+  "sender": "",
+  "status": false,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31bb"
+  },
+  "id": "B003",
+  "name": "Bob",
+  "email": "bob@gmail.com",
+  "department": "CSE",
+  "password": "123",
+  "task": "",
+  "sender": "",
+  "status": false,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31bc"
+  },
+  "id": "D004",
+  "name": "David",
+  "email": "david@gmail.com",
+  "department": "CSE",
+  "password": "123",
+  "task": "",
+  "sender": "",
+  "status": false,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31bd"
+  },
+  "id": "E005",
+  "name": "Eve",
+  "email": "eve@gmail.com",
+  "department": "CSE",
+  "password": "123",
+  "task": "",
+  "sender": "",
+  "status": false,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31be"
+  },
+  "id": "S001",
+  "name": "Sam",
+  "email": "sam@gmail.com",
+  "department": "IT",
+  "password": "123",
+  "task": "",
+  "sender": "",
+  "status": false,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31bf"
+  },
+  "id": "C002",
+  "name": "Chris",
+  "email": "chris@gmail.com",
+  "department": "IT",
+  "password": "123",
+  "task": "",
+  "sender": "",
+  "status": false,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c0"
+  },
+  "id": "A003",
+  "name": "Alex",
+  "email": "alex@gmail.com",
+  "department": "IT",
+  "password": "123",
+  "task": "",
+  "sender": "",
+  "status": false,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c1"
+  },
+  "id": "T004",
+  "name": "Taylor",
+  "email": "taylor@gmail.com",
+  "department": "IT",
+  "password": "123",
+  "task": "",
+  "sender": "",
+  "status": false,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c2"
+  },
+  "id": "J005",
+  "name": "Jordan",
+  "email": "jordan@gmail.com",
+  "department": "IT",
+  "password": "123",
+  "task": "",
+  "sender": "",
+  "status": false,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c3"
+  },
+  "email": "coe@gmail.com",
+  "password": "123",
+  "role": "sender"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c4"
+  },
+  "email": "headacademics@gmail.com",
+  "password": "123",
+  "role": "sender"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c5"
+  },
+  "email": "mteam@gmail.com",
+  "password": "123",
+  "role": "sender"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c6"
+  },
+  "email": "hod1@gmail.com",
+  "password": "123",
+  "role": "sender"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c7"
+  },
+  "email": "hod2@gmail.com",
+  "password": "123",
+  "role": "sender"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c8"
+  },
+  "email": "hod3@gmail.com",
+  "password": "123",
+  "role": "sender"
+},
+{
+  "_id": {
+    "$oid": "670f551097cfea69efbb31c9"
+  },
+  "email": "admin@gmail.com",
+  "password": "123",
+  "role": "admin"
+}]
